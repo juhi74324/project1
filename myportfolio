@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Juhi Kumari — Portfolio</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      padding:0;
+      background:#f4f4f4;
+      color:#333;
+    }
+    header{
+      background:purple;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    nav{
+      background:#e6e2e4;
+      padding:10px;
+      text-align: right;
+    }
+    nav a{
+      color:rgb(39, 36, 36);
+      margin:0 10px;
+      text-decoration:none;
+    }
+    nav a:hover{
+      text-decoration:underline;
+    }
+    section{
+      padding:20px;
+      margin:20px;
+      background:white;
+      border-radius:8px;
+    }
+    h2{
+      margin-top:0;
+    }
+    ul{
+      list-style-type: square;
+      padding-left:20px;
+    }
+    footer{
+      text-align:center;
+      background:#333;
+      color:white;
+      padding:10px;
+      margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Juhi Kumari</h1>
+    <p>BCA Student | Learning HTML & CSS</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Juhi Kumari</strong>. I am a BCA student of RSMT college. I know the basics of C, C++, and Java. Currently, I am learning HTML and CSS, and this portfolio is one of my practice projects.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C (Basic)</li>
+      <li>C++ (Basic)</li>
+      <li>Java (Basic)</li>
+      <li>Python (Basic)</li>
+      <li>HTML (Learning)</li>
+      <li>CSS (Learning)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>As I am still learning, here are some simple projects I have tried:</p>
+    <ul>
+      <li>Personal Portfolio (this page)</li>
+      <li>Simple Landing Page</li>
+      <li>Basic Form Design</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me at: <strong>juhi74324@gmail.com</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Juhi Kumari. All rights reserved.</p>
+  </footer>
+</body>
+</html>
